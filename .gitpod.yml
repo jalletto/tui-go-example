@@ -1,0 +1,10 @@
+tasks:
+  - init: |
+      go get
+      go build
+    command: |
+      gp open main.go
+      echo "go_tui is built and ready to try out. Type: ./go_tui"
+vscode:
+  extensions:
+    - golang.go
